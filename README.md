@@ -275,7 +275,7 @@ Example:
 **Mayank Chhatani**
 
 GitHub:
-YOUR_GITHUB_PROFILE_LINK
+https://github.com/MayankChhatani
 
 LinkedIn:
-YOUR_LINKEDIN_PROFILE_LINK
+www.linkedin.com/in/mayank-chhatani-369b82316
