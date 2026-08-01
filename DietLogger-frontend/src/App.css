@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0e6f7;
+  margin: 0;
+}
+
+.page {
+  padding: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+}
+
+.auth-container {
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  width: 300px;
+  margin: 80px auto;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 16px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #9370db;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #6a5acd;
+}
+
+button:disabled {
+  background-color: #c9bce6;
+  cursor: not-allowed;
+}
+
+button.secondary {
+  background-color: #ff7f50;
+}
+
+button.secondary:hover {
+  background-color: #ff6347;
+}
+
+.error-text {
+  color: #c0392b;
+  font-size: 13px;
+  min-height: 18px;
+}
+
+.food-form {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr auto;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.food-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0 20px;
+}
+
+.food-buttons button {
+  position: relative;
+  padding: 8px 30px 8px 12px;
+  max-width: 220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top: 0;
+}
+
+.food-buttons .delete-x {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 12px;
+  padding: 0 4px;
+  margin: 0;
+  line-height: 1;
+}
+
+.food-buttons .delete-x:hover {
+  color: #ffdada;
+  background: transparent;
+}
+
+.macro-summary {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 15px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.macro-summary p {
+  margin: 6px 0;
+  color: #333;
+}
+
+.history-item {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.history-item h2 {
+  margin-top: 0;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,16 @@
+# Frontend
+DietLogger-frontend/node_modules/
+DietLogger-frontend/dist/
+
+# Backend
+DietLogger-backend/target/
+
+# IDE
+.idea/
+*.iml
+
+# Environment
+.env
+
+# OS
+.DS_Store
