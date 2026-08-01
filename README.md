@@ -2,7 +2,7 @@
 
 A full-stack web application that helps users track their daily food intake, calories, and nutritional information.
 
-Users can register, login securely, add food items, maintain daily food logs, and monitor their calorie and macronutrient consumption through an interactive dashboard.
+Users can register, login securely, add food items, maintain daily food logs, and monitor their calorie and macronutrient consumption through an interactive dashboard. 
 
 ---
 
