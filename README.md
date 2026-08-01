@@ -236,18 +236,6 @@ http://localhost:5173
 
 ---
 
-# 📸 Screenshots
-
-(Add application screenshots here)
-
-Example:
-- Login Page
-- Dashboard
-- Food Management Page
-- Diet History Page
-
----
-
 # 🧠 Concepts Implemented
 
 - Full Stack Development
